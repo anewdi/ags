@@ -51,7 +51,7 @@ interface Services {
     notifications: typeof import('./service/notifications.js').default
     powerprofiles: typeof import('./service/powerprofiles.js').default
     systemtray: typeof import('./service/systemtray.js').default
-    greetd: typeof import('./service/greetd.js').default
+    //greetd: typeof import('./service/greetd.js').default
 }
 
 export default class Service extends GObject.Object {
